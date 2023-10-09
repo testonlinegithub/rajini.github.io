@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>UserName Validation</title>
+    </head>
+    <body>
+        <form action="usermessage.html">
+            <fieldset>
+                <legend>UserName Validation</legend>
+                <br><br>
+
+                <label for="sal">Salutation</label>
+                <br><br>
+                <select name="sal" id="sal">
+                    <option value="None">---None---</option>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Mrs.">Mrs.</option>
+                    <option value="Dr.">Dr.</option>
+                   
+                </select>
+                <br><br>
+                <label for="uname">userName</label>
+                &nbsp;
+                <input type="text" required id="uname" name="uname" pattern="[A-Za-z]{3,7}">
+                <br><br>
+                
+                <label for="contact">contact</label>
+                &nbsp;
+                <input type=" text" required id="contact" name="contact" pattern="[6-9]{1} [0-9]{9}">
+                <br><br>
+
+                <label for="add">Address</label>
+                <br><br>
+                <textarea name="add" id="add" cols="30" rows="10"></textarea>
+                <!--rttahj-->
+
+
+            </fieldset>
+            <input type="submit">
+        </form>
+    </body>
+</html>
